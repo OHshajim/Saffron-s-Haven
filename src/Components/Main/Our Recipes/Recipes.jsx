@@ -11,24 +11,32 @@ const Recipes = () => {
             .then(res => res.json())
             .then(data => SetRecipe(data))
     }, [])
-
+    const notify = () => toast(" You can not select a single recipe more than once");
     const [CookRecipes, setCookRecipe] = useState([]);
+    const [cookForToast,setToast] = useState([])
     const handleCook = (recipe) => {
-        let newCookRecipes = [...CookRecipes, recipe]
-        setCookRecipe(newCookRecipes)
-        const notify = () => toast("Wow so easy!");
-        notify()
-        
-        console.log(Recipes);
-        let count = 0;
-        for (const cook of CookRecipes) {
-            if (cook.recipe_id === recipe.recipe_id)
-            {
-            count+=1
-            console.log(count)
+
+        cartToCook(recipe)
+
+        const newToast = [...cookForToast,recipe]
+        setToast(newToast)
+        console.log(cookForToast);
+
+    }
+    
+    const cartToCook=(recipe)=>{
+            const isTrue = cookForToast.find(cook=>cook.recipe_name===recipe.recipe_name)
+            console.log(isTrue);
+            if(!isTrue){
+                const newCookRecipes = [...CookRecipes, recipe] ;
+                setCookRecipe(newCookRecipes)
+            }
+            else{
+            notify()
+            }
             
-        }
-        }
+            // console.log("done");
+          
     }
 
     // for cook 
