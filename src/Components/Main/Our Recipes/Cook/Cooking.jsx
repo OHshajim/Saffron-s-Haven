@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 
 const Cooking = ({ cookingRecipes }) => {
     // console.log(cookingRecipes);
@@ -47,5 +48,7 @@ const Cooking = ({ cookingRecipes }) => {
         </div>
     );
 };
-
+Cooking.propTypes={
+    cookingRecipes : PropTypes.object.isRequired
+}
 export default Cooking;

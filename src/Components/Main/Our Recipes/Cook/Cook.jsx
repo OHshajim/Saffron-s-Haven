@@ -1,5 +1,6 @@
 // import { useState } from "react";
 import Cooking from "./Cooking";
+import PropTypes from 'prop-types'; 
 
 const Cook = ({ CookRecipes ,handleCooking ,cookingRecipes}) => {
 
@@ -44,5 +45,9 @@ const Cook = ({ CookRecipes ,handleCooking ,cookingRecipes}) => {
         </div>
     );
 };
-
+Cook.propTypes={
+    CookRecipes:PropTypes.object.isRequired ,
+    handleCooking:PropTypes.func.isRequired ,
+    cookingRecipes : PropTypes.object.isRequired
+}
 export default Cook;
