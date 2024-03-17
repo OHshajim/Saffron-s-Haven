@@ -18,11 +18,11 @@ const Recipe = ({ recipe ,handleCook}) => {
                     </div>
                     <div className="flex justify-between items-center text-[#282828CC] text-base">
                         <div className="flex gap-1 items-center">
-                            <img src="../../../../public/icon/Frame (1).png" alt="" />
+                            <img src="./icon/Frame (1).png" alt="" />
                             <p>{preparation_time}</p>
                         </div>
                         <div className="flex gap-1 items-center">
-                            <img src="../../../../public/icon/Frame.png" alt="" />
+                            <img src="./icon/Frame.png" alt="" />
                             <p>{calories} Calories</p>
                         </div>
                     </div>

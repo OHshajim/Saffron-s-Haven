@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Recipes = () => {
     const [Recipes, SetRecipe] = useState([]);
     useEffect(() => {
-        fetch('../../../../public/Recipes data/Recipes.JSON')
+        fetch('./RecipesData/Recipes.JSON')
             .then(res => res.json())
             .then(data => SetRecipe(data))
     }, [])
@@ -58,7 +58,7 @@ const Recipes = () => {
     return (
         <div className="my-20">
             <h1 className="text-center text-4xl font-semibold">Our Recipes</h1>
-            <p className="text-center text-[#150B2B99]">The taste of your food recipes is nothing short of extraordinary. Each dish is a harmonious blend of flavors, carefully balanced to tantalize the taste buds. Whether you are crafting a spicy curry, a comforting bowl of soup, or a decadent dessert, your keen understanding of flavor profiles allows you .</p>
+            <p className="text-center text-[#150B2B99] my-5">The taste of your food recipes is nothing short of extraordinary. Each dish is a harmonious blend of flavors, carefully balanced to tantalize the taste buds. Whether you are crafting a spicy curry, a comforting bowl of soup, or a decadent dessert, your keen understanding of flavor profiles allows you .</p>
 
             <div className="my-10 flex flex-col md:flex-row gap-5">
 
