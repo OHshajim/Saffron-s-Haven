@@ -1,0 +1,131 @@
+[
+    {
+      "recipe_id": "1",
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "Classic Italian pasta dish with eggs, pancetta, and cheese.",
+      "image_url": "https://i.ibb.co/PFjN9GL/top-view-tasty-italian-pasta-light-background.jpg",
+      "ingredients": [
+        "8 oz (225g) spaghetti",
+        "2 large eggs",
+        "1 cup grated Pecorino Romano cheese",
+        "4 oz (115g) pancetta or bacon, diced",
+        "2 cloves garlic, minced",
+        "Fresh parsley, chopped (optional)"
+      ],
+      "preparation_time": "25 minutes",
+      "calories": "400"
+    },
+    {
+      "recipe_id": "2",
+      "recipe_name": "Chicken Tikka Masala",
+      "short_description": "Indian dish featuring grilled chicken in a creamy tomato sauce.",
+      "image_url": "https://i.ibb.co/z53CBs0/top-view-tasty-meat-soup-with-potatoes-seasonings-dark-desk.jpg",
+      "ingredients": [
+        "1 lb (450g) boneless, skinless chicken breasts, cut into bite-sized pieces",
+        "1 cup plain yogurt",
+        "2 tablespoons lemon juice",
+        "2 cloves garlic, minced",
+        "1 tablespoon grated ginger",
+        "2 teaspoons ground cumin"
+      ],
+      "preparation_time": " 95 minutes",
+      "calories": "500"
+    },
+    {
+      "recipe_id": "3",
+      "recipe_name": "Vegetable Stir-Fry",
+      "short_description": "Colorful stir-fry loaded with fresh vegetables and tofu.",
+      "image_url": "https://i.ibb.co/k4T7dPm/fried-vegetables-with-sauce-pan.jpg",
+      "ingredients": [
+        "1 block tofu, cubed",
+        "2 cups mixed vegetables (bell peppers, broccoli, carrots, etc.)",
+        "2 cloves garlic, minced",
+        "1 tablespoon ginger, minced",
+        "3 tablespoons soy sauce",
+        "2 tablespoons sesame oil"
+      ],
+      "preparation_time": "30 minutes",
+      "calories": "300"
+    },
+    {
+      "recipe_id": "4",
+      "recipe_name": "Caprese Salad",
+      "short_description": "Simple Italian salad with fresh tomatoes, mozzarella, and basil.",
+      "image_url": "https://i.ibb.co/nPdpKh1/apetizer-salad-with-mozarella-tomato-rolls.jpg",
+      "ingredients": [
+        "2 large tomatoes, sliced",
+        "8 oz fresh mozzarella, sliced",
+        "1/4 cup fresh basil leaves",
+        "2 tablespoons balsamic vinegar",
+        "2 tablespoons extra virgin olive oil",
+        "Salt and black pepper to taste"
+      ],
+      "preparation_time": "15 minutes",
+      "calories": "250"
+    },
+    {
+      "recipe_id": "5",
+      "recipe_name": "Tacos al Pastor",
+      "short_description": "Authentic Mexican tacos filled with marinated pork and pineapple.",
+      "image_url": "https://i.ibb.co/9GFG1yZ/fresh-taco-with-grilled-beef-lemon-generative-ai.jpg",
+      "ingredients": [
+        "1 lb pork shoulder, thinly sliced",
+        "1 cup pineapple chunks",
+        "1/4 cup onion, diced",
+        "2 cloves garlic, minced",
+        "2 tablespoons lime juice",
+        "2 teaspoons chili powder"
+      ],
+      "preparation_time": "120 minutes",
+      "calories": "350"
+    },
+    {
+      "recipe_id": "6",
+      "recipe_name": "Greek Salad",
+      "short_description": "Refreshing salad with tomatoes, cucumbers, olives, and feta cheese.",
+      "image_url": "https://i.ibb.co/GWYm713/greek-salad-with-cucumber-tomato-sweet-pepper-lettuce-green-onion-feta-cheese-olives-with-olive-oil.jpg",
+      "ingredients": [
+        "2 large tomatoes, diced",
+        "1 cucumber, diced",
+        "1/2 cup Kalamata olives, pitted",
+        "1/2 cup crumbled feta cheese",
+        "2 tablespoons red onion, thinly sliced",
+        "2 tablespoons olive oil"
+      ],
+      "preparation_time": "15 minutes",
+      "calories": "200"
+    },
+    {
+      "recipe_id": "7",
+      "recipe_name": "Chocolate Chip Cookies",
+      "short_description": "Classic homemade cookies loaded with chocolate chips.",
+      "image_url": "https://i.ibb.co/T87xwBQ/top-view-cookies-chocolate-chips-cloth.jpg",
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "1 cup unsalted butter, softened",
+        "3/4 cup granulated sugar",
+        "3/4 cup packed brown sugar"
+      ],
+      "preparation_time": "45 minutes",
+      "calories": "150"
+    },
+    {
+      "recipe_id": "8",
+      "recipe_name": "Vegetarian Chili",
+      "short_description": "Hearty chili loaded with beans, vegetables, and spices.",
+      "image_url": "https://i.ibb.co/kqKkwNP/front-view-tasty-vegetable-salad-inside-plate-blue-table.jpg",
+      "ingredients": [
+        "1 can (15 oz) black beans, drained and rinsed",
+        "1 can (15 oz) kidney beans, drained and rinsed",
+        "1 can (15 oz) diced tomatoes",
+        "1 cup vegetable broth",
+        "1 bell pepper, diced",
+        "1 onion, diced"
+      ],
+      "preparation_time": "55 minutes",
+      "calories": "300 "
+    }
+  ]
+  
