@@ -1,9 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Navbar() {
     return (
         <div>
             <div className="navbar flex-col md:flex-row mt-10">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl md:text-4xl">Recipe Calories</a>
+                    <a className="btn btn-ghost text-xl md:text-4xl">Saffron's Haven</a>
                 </div>
 
                 <div className="hidden lg:flex  flex-1">

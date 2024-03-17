@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 
 const Recipe = ({ recipe ,handleCook}) => {
     const { image_url, recipe_name, short_description, ingredients, calories, preparation_time } = recipe;
@@ -34,4 +35,8 @@ const Recipe = ({ recipe ,handleCook}) => {
     );
 };
 
+Recipe.propTypes={
+    recipe:PropTypes.object.isRequired ,
+    handleCook:PropTypes.func.isRequired
+}
 export default Recipe;
